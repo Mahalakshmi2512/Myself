@@ -1,181 +1,331 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mahalakshmi Gounder : Portfolio</title>
-    <meta
-      name="description"
-      content="Portfolio of Your Mahalakshmi Gounder, Data Analyst and Front End Developer."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- NAV -->
-    <header class="nav">
-      <a href="#home" class="logo">MG.</a>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact" class="btn-small">Contact</a>
-      </nav>
-    </header>
 
-    <main>
-      <!-- HERO -->
-      <section id="home" class="hero">
-        <p class="eyebrow">Hi, I'm</p>
-        <h1>Mahalakshmi Gounder<span class="dot">.</span></h1>
-        <p class="tagline">
-          <span class="highlight">B.E. Computer Engineering</span> graduate
-          (2026) from
-          <span class="highlight">SIES Graduate School of Technology,</span>
-          currently intern at <span class="highlight">IPSOS</span>. Skilled in
-          <span>Python</span>, <span>SQL</span>, <span>Pandas</span>,
-          <span>NumPy</span>, <span>Excel</span>, <span>HTML</span>, and
-          <span>CSS</span>.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Mahalakshmi Gounder | Portfolio</title>
+
+  <meta
+    name="description"
+    content="Portfolio of Mahalakshmi Gounder, Computer Engineering graduate, Data Analyst and Frontend Developer."
+  />
+
+  <meta name="author" content="Mahalakshmi Gounder" />
+  <meta name="theme-color" content="#0d0f14" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="nav">
+    <a href="#home" class="logo">MG.</a>
+
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publication</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact" class="btn-small">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+
+      <p class="eyebrow">Hi, I'm</p>
+
+      <h1>
+        Mahalakshmi Gounder<span class="dot">.</span>
+      </h1>
+
+      <p class="tagline">
+        <span class="highlight">B.E. Computer Engineering</span> graduate (2026)
+        from
+        <span class="highlight">SIES Graduate School of Technology</span>,
+        currently an intern at <span class="highlight">IPSOS</span>.
+
+        Interested in Data Analytics and Frontend Development, with skills in
+        <span>Python</span>,
+        <span>SQL</span>,
+        <span>Pandas</span>,
+        <span>NumPy</span>,
+        <span>Excel</span>,
+        <span>Power BI</span>,
+        <span>HTML</span> and
+        <span>CSS</span>.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn">See My Work</a>
+
+        <a href="#contact" class="btn btn-outline">
+          Get in Touch
+        </a>
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+
+      <h2><span class="num">01</span> About</h2>
+
+      <div class="about-grid">
+
+        <p>
+          I enjoy turning messy data into clear insights and building
+          interfaces that feel simple to use.
+
+          I like understanding how things work before I build them,
+          and I learn best by creating real projects.
+
+          Outside of tech, learning music and reading books keep me
+          creative and help me approach problems in new ways.
+
+          I'm looking for a team where I can keep learning, take on
+          real responsibility, and grow into a strong data professional.
         </p>
 
-        <div class="hero-actions">
-          <a href="#projects" class="btn">See my work</a>
-          <a href="#contact" class="btn btn-outline">Get in touch</a>
-        </div>
-      </section>
+        <ul class="facts">
 
-      <!-- ABOUT -->
-      <section id="about" class="section">
-        <h2><span class="num">01</span> About</h2>
-        <div class="about-grid">
-          <p>
-    I enjoy turning messy data into clear insights and building interfaces that feel simple to use.
-    I like understanding how things work before I build them, and 
-    I learn best by creating real projects. Outside of tech, learning music and reading books keep me creative and help me
-    approach problems in new ways. I'm looking for a team where I can keep learning, take on real
-    responsibility, and grow into a strong data professional.
-  </p>
-          <ul class="facts">
-            <li><strong>Based in</strong>Mumbai</li>
-            <li>
-              <strong>Focus</strong>Data Analysis and Front End Development
-            </li>
-            <li>
-              <strong>Currently</strong> Intern at IPSOS | Learning data
-              analytics and frontend development
-            </li>
-          </ul>
-        </div>
-      </section>
+          <li>
+            <strong>Based In</strong>
+            Mumbai, India
+          </li>
 
-      <!-- PROJECTS -->
-      <section id="projects" class="section">
-        <h2><span class="num">02</span> Projects</h2>
-        <div class="cards">
-          <article class="card">
-            <span class="tag">Python · Data Privacy</span>
-            <h3>PII Detection</h3>
-            <p>
-              Detects, classifies, and protects Personally Identifiable
-              Information in text data to support privacy and compliance with
-              data protection laws.
-            </p>
-            <div class="links">
-              <a
-                href="https://github.com/Mahalakshmi2512/PII"
-                target="_blank"
-                rel="noopener"
-                >Code ↗</a
-              >
-            </div>
-          </article>
+          <li>
+            <strong>Education</strong>
+            B.E. Computer Engineering
+          </li>
 
-          <article class="card">
-            <span class="tag">Python · Data Analysis</span>
-            <h3>Fake News Verifier</h3>
-            <p>A Website that checks whether a news item is real or fake.</p>
-            <div class="links">
-              <a
-                href="https://github.com/Mahalakshmi2512/fake_news_verifier"
-                target="_blank"
-                rel="noopener"
-                >Code ↗</a
-              >
-            </div>
-          </article>
+          <li>
+            <strong>Focus</strong>
+            Data Analysis and Frontend Development
+          </li>
 
-          <article class="card">
-            <span class="tag">Flask · Python · MySQL</span>
-            <h3>SSR Logistics ERP</h3>
-            <p>
-              Web-based ERP system built during my Web Developer Internship at
-              SSR Logistic Solutions (Jan–Jul 2025), using HTML, CSS,
-              JavaScript, Flask, and MySQL. Designed a responsive UI, integrated
-              backend APIs, and optimized code for better scalability and
-              performance.
-            </p>
-            <div class="links">
-              <a
-                href="https://github.com/Mahalakshmi2512/SSR"
-                target="_blank"
-                rel="noopener"
-                >Code ↗</a
-              >
-            </div>
-          </article>
-        </div>
-      </section>
-      <section id="publications" class="section">
-  <h2><span class="num">03</span> Publication</h2>
-  <article class="publication">
-    <span class="tag">IEEE Xplore · ICSCST 2026</span>
-    <h3>Design of an IoT–Blockchain Integrated Framework for a Transparent and Secure Public Distribution System</h3>
-    <p class="authors">
-      Mahalakshmi Gounder, K Nisharani, Kesavan Mudaliyar,
-      Nishok Ganapathy, Kalyani Pampattiwar
-    </p>
-    <p>
-      Published by IEEE in the proceedings of ICSCST 2026, organized by
-      Saintgits College of Engineering (Autonomous), Kottayam, Kerala.
-    </p>
-  </article>
-</section>
+          <li>
+            <strong>Currently</strong>
+            Intern at IPSOS | Learning Data Analytics and Frontend Development
+          </li>
 
-      <!-- SKILLS -->
-      <section id="skills" class="section">
-        <h2><span class="num">03</span> Skills</h2>
-        <ul class="chips">
-          <li>Python</li>
-          <li>SQL</li>
-          <li>Excel</li>
-          <li>PowerBI , Tableau </li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Git</li>
-          <li>Responsive Design</li>
         </ul>
-      </section>
 
-      <!-- CONTACT -->
-      <section id="contact" class="section contact">
-        <h2><span class="num">04</span> Contact</h2>
-        <p class="big">Have a project or opportunity in mind?</p>
-        <a  class="email">mahalakshmigounder72@gmail.com</a>
-        <div class="socials">
-          <a href="https://github.com/Mahalakshmi2512" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://www.linkedin.com/in/mahalakshmigounder/" target="_blank" rel="noopener">LinkedIn</a>
-        </div>
-      </section>
-    </main>
+      </div>
 
-    <footer>
-     <p>© 2026 Mahalakshmi Gounder | Data Analyst &amp; Frontend Developer</p>
-    </footer>
-  </body>
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+
+      <h2><span class="num">02</span> Projects</h2>
+
+      <div class="cards">
+
+        <!-- PROJECT 1 -->
+        <article class="card">
+
+          <span class="tag">Python · Data Privacy</span>
+
+          <h3>PII Detection</h3>
+
+          <p>
+            A Python-based project that detects, classifies, and
+            protects Personally Identifiable Information (PII)
+            in text data to support data privacy and compliance.
+          </p>
+
+          <div class="links">
+            <a
+              href="https://github.com/Mahalakshmi2512/PII"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Code ↗
+            </a>
+          </div>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+        <article class="card">
+
+          <span class="tag">Python · Machine Learning</span>
+
+          <h3>Fake News Verifier</h3>
+
+          <p>
+            A web application that identifies whether a news article
+            is real or fake using Python and machine learning
+            techniques.
+          </p>
+
+          <div class="links">
+            <a
+              href="https://github.com/Mahalakshmi2512/fake_news_verifier"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Code ↗
+            </a>
+          </div>
+
+        </article>
+
+
+        <!-- PROJECT 3 -->
+        <article class="card">
+
+          <span class="tag">Flask · Python · MySQL</span>
+
+          <h3>SSR Logistics ERP</h3>
+
+          <p>
+            A web-based ERP system developed during my Web Developer
+            Internship at SSR Logistic Solutions (Jan–Jul 2025).
+
+            Worked with HTML, CSS, JavaScript, Flask and MySQL
+            to build responsive interfaces and integrate backend APIs.
+          </p>
+
+          <div class="links">
+            <a
+              href="https://github.com/Mahalakshmi2512/SSR"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Code ↗
+            </a>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- PUBLICATION SECTION -->
+    <section id="publications" class="section">
+
+      <h2><span class="num">03</span> Publication</h2>
+
+      <article class="publication">
+
+        <span class="tag">IEEE Xplore · ICSCST 2026</span>
+
+        <h3>
+          Design of an IoT–Blockchain Integrated Framework
+          for a Transparent and Secure Public Distribution System
+        </h3>
+
+        <p class="authors">
+          Mahalakshmi Gounder, K Nisharani, Kesavan Mudaliyar,
+          Nishok Ganapathy, Kalyani Pampattiwar
+        </p>
+
+        <p>
+          Published by IEEE in the proceedings of ICSCST 2026,
+          organized by Saintgits College of Engineering (Autonomous),
+          Kottayam, Kerala.
+        </p>
+
+      </article>
+
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+
+      <h2><span class="num">04</span> Skills</h2>
+
+      <ul class="chips">
+
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Excel</li>
+        <li>Power BI</li>
+        <li>Tableau</li>
+        <li>Pandas</li>
+        <li>NumPy</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git</li>
+        <li>Responsive Design</li>
+
+      </ul>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section contact">
+
+      <h2><span class="num">05</span> Contact</h2>
+
+      <p class="big">
+        Have a project or opportunity in mind?
+      </p>
+
+      <a
+        href="mailto:mahalakshmigounder72@gmail.com"
+        class="email"
+      >
+        mahalakshmigounder72@gmail.com
+      </a>
+
+      <div class="socials">
+
+        <a
+          href="https://github.com/Mahalakshmi2512"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub ↗
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/mahalakshmigounder/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn ↗
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      © 2026 Mahalakshmi Gounder |
+      Data Analyst & Frontend Developer
+    </p>
+  </footer>
+
+</body>
 </html>
